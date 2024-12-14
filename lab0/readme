@@ -1,0 +1,24 @@
+
+# Comando ps
+
+Exercício 1: Reproduza os exemplos acima de uso do ps, e experimente também usá-lo com a opção "u":. Use "ps u" e
+depois "ps aux". Qual a diferença que você observou na saída?
+```
+    ps 
+    ps u
+    ps aux
+```
+
+Exercício 2: Invoque a man page do ps com "man ps" e leia nela o que significa o campo "STAT". Lembre-se que você
+pode localizar palavras ao ler uma man page com o comando "/" (para uma lista de comandos pressione ‘h’; para sair
+do manual, pressione ‘q’).
+Agora olhe novamente a saída do comando “ps aux” e responda: por que a grande maioria dos processos apresenta a
+letra ‘S’ na coluna STAT, e pouquíssimos (1 ou 2?!?) a letra ‘R’?
+
+```
+    man ps
+```
+
+
+Exercício 3: Em geral há um limite superior pequeno para o PID que um processo pode ter (por exemplo 32767). O
+que você acha que acontece quando esse limite é atingido?
