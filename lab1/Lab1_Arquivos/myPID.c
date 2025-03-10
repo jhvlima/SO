@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>
-/* #include <sys/type.h> */
+#include <sys/types.h>
 
 int main(void) {
    pid_t childpid;
